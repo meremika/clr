@@ -1,0 +1,16 @@
+[workspace]
+resolver = "3"
+members = ["hello", "echor", "catr"]
+
+[workspace.package]
+version = "0.1.0"
+authors = ["Michael Kaiser"]
+edition = "2024"
+
+[workspace.dependencies]
+assert_cmd = "2.0.17"
+clap = { version = "4.5.41", features = ["derive"] }
+predicates = "3.1.3"
+rand = "0.9.1"
+anyhow = "1.0.98"
+pretty_assertions = "1.4.1"
