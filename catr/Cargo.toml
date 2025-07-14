@@ -5,10 +5,11 @@ edition.workspace = true
 authors.workspace = true
 
 [dependencies]
+anyhow = { workspace = true }
+clap = { workspace = true }
 rand = { workspace = true }
 
 [dev-dependencies]
-anyhow = { workspace = true }
 assert_cmd = { workspace = true }
 predicates = { workspace = true }
 pretty_assertions = { workspace = true }
