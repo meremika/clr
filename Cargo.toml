@@ -1,6 +1,6 @@
 [workspace]
 resolver = "3"
-members = ["hello", "echor", "catr"]
+members = ["hello", "echor", "catr", "headr"]
 
 [workspace.package]
 version = "0.1.0"

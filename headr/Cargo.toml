@@ -1,0 +1,15 @@
+[package]
+name = "headr"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+
+[dependencies]
+anyhow = { workspace = true }
+clap = { workspace = true }
+
+[dev-dependencies]
+rand = { workspace = true }
+assert_cmd = { workspace = true }
+predicates = { workspace = true }
+pretty_assertions = { workspace = true }
